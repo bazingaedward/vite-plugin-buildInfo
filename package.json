@@ -1,12 +1,27 @@
 {
   "name": "vite-plugin-meta-info",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "bazingaedward@gmail.com",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.mjs",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
+  ],
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bazingaedward/vite-plugin-buildInfo"
+  },
+  "bugs": {
+    "url": "https://github.com/bazingaedward/vite-plugin-buildInfo/issues"
+  },
+  "keywords": [
+    "git",
+    "meta",
+    "buillInfo"
   ],
   "scripts": {
     "dev": "vite build --watch",
