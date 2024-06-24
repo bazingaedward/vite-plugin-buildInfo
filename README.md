@@ -28,7 +28,7 @@ Add multiple Git information artifacts to the index.html file for the project bu
 
 ## Insall
 ```
-pnpm install vite-plugin-meta-info
+pnpm install vite-plugin-meta-info -D
 ```
 
 ## Config
